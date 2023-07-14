@@ -50,5 +50,4 @@ def blockchain_view(request):
 
     return render(request, 'blockchain.html', {'blocks': blocks, 'form': form})
 
-def contactus(request):
-    return render(request,"contactus.html")
+

@@ -19,6 +19,5 @@ from Blockchain import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.blockchain_view, name='blockchain'),
-    path("contactus/",views.contactus,name="contactus"),
     
 ]
